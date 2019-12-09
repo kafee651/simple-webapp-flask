@@ -2,6 +2,7 @@
 FROM python:3.6
 
 # Set the application directory
+USER 1001
 WORKDIR /app
 
 # Install our requirements.txt
